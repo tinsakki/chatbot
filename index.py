@@ -5,6 +5,8 @@ import requests
 import json
 import pusher
 
+import json
+from pprint import pprint
 app = Flask(__name__)
 
 # initialize Pusher
